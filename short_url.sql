@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1:3306
--- Время создания: Фев 15 2019 г., 18:42
+-- Время создания: Фев 15 2019 г., 18:46
 -- Версия сервера: 5.6.41
 -- Версия PHP: 7.0.32
 
@@ -35,17 +35,6 @@ CREATE TABLE `shorturl` (
   `time` int(11) NOT NULL,
   `time_create` datetime NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
---
--- Дамп данных таблицы `shorturl`
---
-
-INSERT INTO `shorturl` (`id`, `full`, `short`, `time`, `time_create`) VALUES
-(115, 'http://google.com', '6fuLE0pG', 0, '2019-02-15 13:42:45'),
-(116, 'http://google.com', 'q8BiwNrS', 0, '2019-02-15 10:42:51'),
-(117, 'http://example.com', 'c6pObwRM', 2, '2019-02-15 18:17:26'),
-(118, 'http://example.com', 'QLSNPnsY', 0, '2019-02-15 18:25:48'),
-(119, 'http://google.com ', 'MJ4v5201', 0, '2019-02-15 18:29:38');
 
 --
 -- Индексы сохранённых таблиц
