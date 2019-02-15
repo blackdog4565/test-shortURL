@@ -1,0 +1,261 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.body{
+	font-family: sans-serif;
+}
+.inner{
+	margin-left: auto;
+	margin-right: auto;
+	width: 1024px;
+}
+.p-404{
+	margin-bottom: 20px;
+  font-size: 20px;
+}
+.a-404{
+	text-decoration: none;
+	color: #008eff;
+	font-size: 18px;
+}
+.flex-404{
+	margin-top: 60px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.form-short-url{
+	flex-direction: column;
+	justify-content: center;
+	width: 402px;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.form-p{
+	margin-bottom: 20px;
+	font-size: 20px;
+}
+.form-url{
+    width: 188px;
+    padding: 5px;
+    /* border-radius: 5px; */
+    border: 1px solid #dbdbdb;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 17px;
+}
+.form-sub{
+	width: 160px;
+  padding: 10px 5px 10px 5px;
+  /* border-radius: 5px; */
+  background-color: #008eff;
+  border: 0px solid grey;
+  margin-bottom: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 17px;
+  cursor: pointer;
+  color: white;
+}
+.form-sub:hover{
+	background-color: #03a9f4;
+}
+.login{
+	margin-top: 50px;
+	width: 500px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.login input {
+	margin-top: 7px;
+	padding: 7px;
+}
+.login__bd{
+	flex-direction: column;
+}
+.button{
+	width: 150px;
+}
+.flex{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+.buttons{
+	width: 100px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.info-text{
+	text-align: center;
+}
+.allURL{
+	width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.ul{
+	list-style-type: none;
+}
+.bar{
+	justify-content: flex-start;
+	list-style-type: none;
+	padding-bottom: 10px;
+}
+
+.allURL__li{
+	width: 170px;
+	padding-right: 20px; 
+
+}
+.bar__short{
+    padding-right: 55px;
+    padding-left: 39px;
+}
+.bar__date{
+	padding-left: 30px;
+}
+.allURL__a{
+	text-decoration: none;
+	color: #008eff;
+	font-size: 18px;
+}
+.err__span{
+	text-decoration: none;
+	color: #008eff;
+	font-size: 18px;
+}
+.err__ok{
+	cursor: pointer;
+    width: 80px;
+    padding-right: 0px;
+    padding: 10px 5px 10px 5px;
+    /* border-radius: 5px; */
+    background-color: #008eff;
+    font-size: 17px;
+    color: white;
+    margin-top: 25px;
+    border: 0;
+}
+.err__p{
+	text-align: center;
+}
+.err__ok:hover{
+	background-color: #03a9f4;
+}
+.hide{
+	display: none;
+}
+.err{
+width: 550px;
+    height: 150px;
+    background-color: #f6f6f6;
+    position: fixed;
+ margin: auto;
+    left: 0;
+    right: 0;
+    top: 200px;
+    align-items: center; 
+	flex-direction: column;
+	border: 2px solid #008eff;
+	border-radius: 5px;
+}
+.short{
+	width: 300px;
+}
+.time{
+	
+}
+.id{
+	width: 35px;
+}
+.allURL__ul{
+	justify-content: space-between;
+	padding: 5px 0px 5px 0px;
+	align-items: center;
+}
+.left{
+	align-self: flex-start;
+}
+.edit-button{
+	cursor: pointer;
+  width: 80px;
+  padding-right: 0px;
+  padding: 10px 5px 10px 5px;
+  /* border-radius: 5px; */
+  background-color: #008eff;
+  font-size: 17px;
+  color: white;
+}
+.to_hide{
+	cursor: pointer;
+  width: 80px;
+  padding-right: 0px;
+  padding: 10px 5px 10px 5px;
+  /* border-radius: 5px; */
+  background-color: #008eff;
+  font-size: 17px;
+  color: white;
+}
+.edit-button:hover{
+	background-color: #03a9f4;
+}
+.hr-bot{
+	border-bottom: 1px solid darkgrey;
+	border-top: 0px;
+
+}
+.edit-field{
+	display: none;
+	overflow: hidden;
+}
+.form-edit{
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+ }
+.form-edit-p{
+	text-align: center;
+	font-size: 15px;
+}
+.form-edit-input{
+  padding: 5px;
+  /* border-radius: 5px; */
+  border: 1px solid #dbdbdb;
+  font-size: 15px;
+	height: 20px;
+	margin-left: 15px;
+}
+.form-edit-input_time{
+	width: 20px;
+
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	    -webkit-appearance: none;
+}
+input[type='number'] {
+    -moz-appearance: textfield;
+}
+.form-edit__button{
+		padding-left: 178px;
+    padding-right: 24px;
+}
+.form-edit-sub{
+	height: 34px; 
+    cursor: pointer;
+    margin-left: 5px;
+    padding: 5px 5px 5px 5px;
+    background-color: #f44336;
+    font-size: 15px;
+    color: white;
+    border: 0;
+}
+.form-edit-sub:hover{
+	background-color: #ff4a3c;
+}
