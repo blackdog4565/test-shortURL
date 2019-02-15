@@ -310,7 +310,7 @@
       if(isset($_POST['delete'])){ # если нажата кнопка удаления
         $q = new shortURL($_POST['id'],$_POST['full'],$_POST['short-url-edit'],$_POST['short-time-edit'],$_POST['time_create']);
         $q->deleteShortURL();
-        #	echo '<meta http-equiv="refresh" content="0;">';
+        echo '<meta http-equiv="refresh" content="0;">';
       }
       
     ?>  
